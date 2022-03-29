@@ -1,6 +1,7 @@
-body {background-color: #D1D1D1;}
-.AteneoLogo{
-width: 20rem;
-
-
+body {background-color: #D1D1D1;
 }
+
+.container{
+    padding: 30px;
+}
+
