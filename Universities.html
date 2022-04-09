@@ -7,18 +7,25 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="accordion.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Scholare</title>
     <style>
         
     </style>
   </head>
   <!-- Nav Bar -->
-  <body style="height: 1000px;">
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+  <body class="shadow-lg" style="height: 1500px;">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark" style="position:fixed; width:100%">
       <div class="container-fluid">
         <img src="New Logo.png" alt="Logo" width="100" height="80" class="d-inline-block align-text-top">
-        <a class="navbar-brand" href="#">Scholare</a>
+        <a class="navbar-brand ms-3" href="index.html">Scholare</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,33 +35,2434 @@
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Aboutus.html">About Us</a>
+              <a class="nav-link active" href="Aboutus.html">About Us</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Universities
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Ateneo De Manila University</a></li>
-                <li><a class="dropdown-item" href="#">University of the East</a></li>
-                <li><a class="dropdown-item" href="#">University of Santo Tomas</a></li>
-                <li><a class="dropdown-item" href="#">National University</a></li>
-                <li><a class="dropdown-item" href="#">De La Salle University</a></li>
-                <li><a class="dropdown-item" href="#">Far Eastern University</a></li>
-                <li><a class="dropdown-item" href="#">University of the Philippines</a></li>
-                <li><a class="dropdown-item" href="#">Adamson University</a></li>
+                <li><a class="dropdown-item" href="#ADMU">Ateneo De Manila University</a></li>
+                <li><a class="dropdown-item" href="#UE">University of the East</a></li>
+                <li><a class="dropdown-item" href="#UST">University of Santo Tomas</a></li>
+                <li><a class="dropdown-item" href="#NU">National University</a></li>
+                <li><a class="dropdown-item" href="#DLSU">De La Salle University</a></li>
+                <li><a class="dropdown-item" href="#FEU">Far Eastern University</a></li>
+                <li><a class="dropdown-item" href="#UP">University of the Philippines</a></li>
+                <li><a class="dropdown-item" href="#ADU">Adamson University</a></li>
               </ul>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-      
-    
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<!-- ADMU -->
+<section id="ADMU"> 
+      <div class="container">
+        <div class="row" style="margin-top: 150px;">
+          <div class="heh container shadow-lg col-lg-6 col-sm-12 col-md-12  ">
+            <div 
+              id="carouselExampleCaptions" 
+              class="carousel slide carousel-fade"
+              data-bs-interval="10000"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="1"
+                  aria-current="true"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="2"
+                  aria-current="true"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner" >
+                <div class="carousel-item active" data-interval="100">
+                  <img 
+                    src="./ADMU CAMPUS.png"
+                    class="d-block w-100"
+                    alt="Carousel 1"
+                    height="500px"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    
+                  </div>
+                </div>
+                <div class="carousel-item" data-interval="200">
+                  <img 
+                    src="./ADMU1.png"
+                    class="d-block w-100"
+                    alt="Carousel 2"
+                    height="500px"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    
+                  </div>
+                </div>
+                <div class="carousel-item" data-interval="300">
+                  <img 
+                    src="./ADMU2.png"
+                    class="d-block w-100"
+                    alt="Carousel 3"
+                    height="500px"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 col-md-12">
+              <div class="card border-0">
+                  <div class=" card-body">
+                      <div class="col-sm-12">
+                          <h3 class="card-title" style="text-align: center; "><b>ATENEO DE MANILA UNIVERSITY</b></h3>
+                          <p class="card-text" style="text-align: justify; padding-top:20px;">
+                            ATENEO is the institutional repository of the Ateneo de Manila University for the management, 
+                            dissemination, and preservation of digital materials that represent the scholarly work production 
+                            of the Ateneo de Manila University and its affiliates and their faculty members, staff, and students 
+                            in higher education. Founded in 1859 as Escuela Municipal de Manila, it is the second-oldest Jesuit-administered 
+                            institution of higher learning in Asia-Pacific.<br><br>
+                            The university provides primary and secondary education as well 
+                            as undergraduate and graduate instruction in the humanities, social sciences, natural sciences and engineering, 
+                            and business. It offers professional degrees through the Graduate School of Business, the School of Government, 
+                            the School of Medicine and Public Health, and the Ateneo Law School. Known for its Jesuit liberal arts tradition, 
+                            the humanities are a key feature of Ateneo education at all levels of study. This is especially pronounced in the 
+                            undergraduate level as the Core Curriculum.<br><br>
+                            Ateneo is widely regarded and often cited as the highest-ranked private 
+                            university and second overall in the country and admission is highly selective.
+                            </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      <br>
+      <hr>
+      <div class="row">
+        
+        <div class="col-lg-12" style="padding-bottom: 40px;">
+          <h4>ACHIEVEMENTS</h4> 
+          <div class="row" style="padding-left: 20px; padding-top: 20px; text-align: justify;">
+            <div class="col-lg-6">
+              <li>124th in 2022 edition of QS Asia University Rankings</li> <br>
+              <li>2nd highest rank as University Institution in the Philippines</li> <br>
+              <li>Ranked as top university in Asia</li>
+            </div>  
+            <div class="col-lg-6">
+              <li>Posted 100% passing rate in February Psychologists Licensure Examination</li><br>
+              <li>Ateneo De Manila University’s 4 students represented the Philippines in one of &emsp;&ensp;the largest debates in history.</li>
+            </div>
+          </div>  
+        </div>
 
+        <div class="col-lg-6">
+          <button class="accordion">ADMISSION</button>
+            <div class="panel" style="text-align: justify;  padding-top: 20px;"> 
+              <ul>
+                <li>
+                  Fill out the appropriate application form and upload your supporting documents. 
+                  Each application route/portal contains more detailed information on the application process.
+                </li>
+                <li>Payment slip / deposit slip as proof of payment of application fee</li>
+                <li>Personal essay</li>
+                <li>High School Record Form and Principal’s Recommendation Form</li>
+                <li>Guidance Counselor / Class Advisor's Recommendation Form</li>
+                <li>Teacher’s Recommendation Form</li>
+                <li>Scholarship/Financial Aid Questionnaire, if applicable</li>
+                <li> Additional documentation, if applicable (ex. IB grades, SAT results, or NCAE results; scholarship application supporting documents)</li>
+              </ul>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+          <button class="accordion">COURSES ON DEMAND OFFERED</button>
+          <div class="panel" style="text-align: justify;  padding-top: 10px;">
+            <div class="row">
+              <span style="padding-top: 20px"><b>Best Course: </b><mark style="background-color: #FFFF00;"> Business Administration and Related Courses.</mark></span>
+              <div class="col-lg-10 col-sm-6">
+                <div class="boxdiv">
+                  Business Administration and Related Courses
+                </div>
+                <div class="boxdiv">
+                  Medical and Allied
+                </div>
+                <div class="boxdiv">
+                  Education and Teacher Training
+                </div>
+                <div class="boxdiv">
+                  Information Technology Related Discipline
+                </div>
+                <div class="boxdiv">
+                  Engineering and Technology
+                </div>
+                <div class="boxdiv">
+                  Social and Behavioral Science
+                </div>
+                <div class="boxdiv">
+                  Religion and Theology
+                </div>
+                <div class="boxdiv">
+                  Maritime Education
+                </div>
+                <div class="boxdiv">
+                  Trade, Craft, and Industrial
+                </div>
+                <div class="boxdiv">
+                  Agricultural, Forestry, and Fisheries and Veterinary Medicine
+                </div>
+                
+              </div>
+              <div class="col-lg-2 col-sm-6 text-center">
+                <div class="boxdiv"> ✓ </div>
+                <div class="boxdiv"> ✓ </div>
+                <div class="boxdiv"> ✓ </div>
+                <div class="boxdiv"> ✓ </div>
+                <div class="boxdiv"> ✓ </div>
+                <div class="boxdiv"> ✓ </div>
+                <div class="boxdiv"> ☓ </div>
+                <div class="boxdiv"> ☓ </div>
+                <div class="boxdiv"> ☓ </div>
+                <div class="boxdiv" style="padding-top: 20px;"><p>☓</p></div>
+              </div>
+              <span style="padding-bottom: 30px;"><b>Tuition:</b> 90K-110K (PER SEMESTER)</span>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-lg-6">
+        <button class="accordion">SERVICES</button>
+          <div class="panel" style="text-align: justify;  padding-top: 20px;"> 
+            <ol>
+              <b><li>Guidance and Counseling: OFFICE OF GUIDANCE AND COUNSELING</li></b><br>
+              <p style="text-align: justify;">The Loyola Schools Office of Guidance & Counseling (LSOGC) offers programs and 
+                services designed to equip the students with the necessary tools for self-actualization 
+                in the context of personal, familial and societal realities.</p><br>
+              <b><li>Work or Internship Opportunities: ATENEO PLACEMENT OFFICE</li></b><br>
+              <p style="text-align: justify;">The Ateneo Placement Office (APO) assists graduates in finding employment appropriate to 
+                their individuality for positive contribution to self, family, and society through a comprehensive 
+                Career Development Program and Networking with the four market sectors: industries, government offices/agencies, NGOs, and schools/colleges.</p><br>
+              <b><li>Religious Services: OFFICE OF THE CAMPUS MINISTRY</li></b><br>
+              <p style="text-align: justify;">The Office hopes to form leaders with a dynamic spirituality that is Ignatian and 
+                rooted in a deep personal commitment to God who moves them to humbly respond to human situations that demand justice and compassion.</p><br>
+              <b><li>Immersion Activities: OFFICE FOR SOCIAL CONCERN AND INVOLVEMENT</li></b><br>
+              <p style="text-align: justify;">The Office for Social Concern and Involvement (OSCI) is the conscientization arm of 
+                the Ateneo de Manila University that aims to increase social awareness and involvement by being more responsive to 
+                the struggle of the marginalized sectors of our society.</p><br>
+            </ol>
+          </div>
+      </div>
+
+      <div class="col-lg-6">
+        <button class="accordion">CONTACT DETAILS</button>
+        <div class="panel" style="text-align: justify; padding-top: 10px;">
+          <h6><i class="fa fa-map-marker" style="font-size:20px; color:rgb(25, 75, 211)"></i>   Ateneo de Manila University Loyola Heights campus, 
+          <br>&ensp;&nbsp; Loyola Heights,  1108 Quezon City, Philippines</h6><br>
+          <h6><i class="fa fa-envelope" style="font-size:20px; color:rgb(25, 75, 211)"></i>   magis.admissions.ls@ateneo. <br><br>
+            &emsp;&ensp;admissions.ls@ateneo.edu <br><br>
+            &emsp;&ensp;gradadmissions.adgp.ls@ateneo.edu
+            </h6><br>
+          <h6><i class="fa fa-phone" style="font-size:20px; color:rgb(25, 75, 211)"></i>   (+63 2) 8426 6001</h6><br>
+        </div>
+      </div>
+      <hr>
+
+      <div class="row justify-content-center" style="padding-top: 50px; " >
+      <h1 class="text-center font-weight-bold" style="padding-bottom:25px; color:black;">ALUMNI</h1>            
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                  <img src="./ADMU-ALMUNI/Dr.Liane.png" class="card-img-top img-fluid" style="width: 70%; margin-top: 10px; margin-bottom: 30px; margin-left:60px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Dr. Liane Pena Alampay</h5>
+                    <p class="card-text" style="padding-bottom: 91px;">&emsp;&ensp;A psychology professor at Ateneo De Manila University, Philippines. Her research studies contributed to the development of 
+                      national policy development, namely, the Juvenile Justice and Welfare Act, the Anti-Bullying Act, and the National Policy on Protection of Children 
+                      in Schools.They won an award for Outstanding Young Scientist in 2013.</p>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                  <img src="./ADMU-ALMUNI/Dr. Jayeel.png" class="card-img-top img-fluid" style="width: 70%; margin-top: 10px; margin-bottom: 30px; margin-left:60px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Dr. Jayeel S. Cornelio</h5>
+                    <p class="card-text" style="padding-bottom: 91px;">&emsp;&ensp;An Associate Professor and Director, Developmental Studies in Ateneo De Manila University and an Oscar R. Ledesma Professorial Chair (2020-2021). 
+                      He is an Honorary Research Associate at the Divinity School of Chung Chi College at the Chinese University of Hong Kong and an Associate Director of the Social Sciences and Missions.</p>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                  <img src="./ADMU-ALMUNI/Uy,Gan,Viola.png" class="card-img-top img-fluid" style="width: 50%; margin-top: 10px; margin-bottom: 30px; margin-left:100px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Justin Louis Uy, Dione Gabrielle Gan, Marjorie Ann Viola</h5>
+                    <p class="card-text">&emsp;&ensp; Uy and Gan have been Information Technology Students since 2019, meanwhile Viola is a BS Management Engineering Student 
+                      graduating in the year 2023. The three won Grand Champion in QBO Philippines annual QOMPETE Intercollegiate Technopreneurs Challenge 2022.</p>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                  <img src="./ADMU-ALMUNI/Eugenio.png" class="card-img-top img-fluid" style="width: 70%; margin-top: 10px; margin-bottom: 30px; margin-left:60px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Eugenio Lopez Sr.</h5>
+                    <p class="card-text" style="padding-bottom: 61px;">&emsp;&ensp;An AB Graduate in Ateneo De Manila University. He is the Co-founder of Lopez Group of Companies.</p>
+                  </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                  <img src="./ADMU-ALMUNI/Georgina.png" class="card-img-top img-fluid" style="width: 60%; margin-top: 10px; margin-bottom: 30px; margin-left:80px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Georgina Wilson</h5>
+                    <p class="card-text">&emsp;&ensp; An AB Economics Graduate in Ateneo De Manila University with Honors. She is a model, television host, and marketing director of Sunnies Studios.</p>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+</section>
+
+<!-- UE -->
+<section id="UE">
+      <div class="container">
+        <div class="row" style="margin-top: 150px;">
+          <div class="heh container shadow-lg col-lg-6 col-sm-12 col-md-12  ">
+            <div 
+              id="carouselExampleCaptions" 
+              class="carousel slide carousel-fade"
+              data-bs-interval="10000"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="1"
+                  aria-current="true"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="2"
+                  aria-current="true"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="3"
+                  aria-current="true"
+                  aria-label="Slide 4"
+                ></button>
+              </div>
+              <div class="carousel-inner" >
+                <div class="carousel-item active" data-interval="100">
+                  <img 
+                    src="./UE CAMPUS.png"
+                    class="d-block w-100"
+                    alt="Carousel 1"
+                    height="500px"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    
+                  </div>
+                </div>
+                <div class="carousel-item" data-interval="200">
+                  <img 
+                    src="./UE CAMPUS.png"
+                    class="d-block w-100"
+                    alt="Carousel 2"
+                    height="500px"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    
+                  </div>
+                </div>
+                <div class="carousel-item" data-interval="300">
+                  <img 
+                    src="./UE CAMPUS.png"
+                    class="d-block w-100"
+                    alt="Carousel 3"
+                    height="500px"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    
+                  </div>
+                </div>
+          
+                <div class="carousel-item" data-interval="400">
+                  <img 
+                    src="./UE CAMPUS.png"
+                    class="d-block w-100"
+                    alt="Carousel 4"
+                    height="500px"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 col-md-12">
+              <div class="card border-0">
+                  <div class=" card-body">
+                      <div class="col-sm-12">
+                          <h3 class="card-title" style="text-align: center; "><b>UNIVERSITY OF THE EAST</b></h3>
+                          <p class="card-text" style="text-align: justify; padding-top:20px;">
+                            UE is one of the Philippines' leading universities, having produced, for 75 years now as of September 2021, 
+                            over a million alumni who have made their mark as leaders and achievers in various fields of endeavor across 
+                            the country and around the world.<br><br>
+                            In 1992, Dr. Rosalina S. Cajucom, a UE CBA alumna and former Treasurer of the Philippines, became the 
+                            President of UE-replaced Dr. Arturo Q. Trinidad, who was UE President from 1991 to 1992. Upon President Cajucom’s 
+                            retirement in mid-1995, Chairman Domingo again assumed the presidency until the appointment of Dr. Josefina R. Cortes 
+                            to the position in 1997. Upon President Cortes’ retirement in 2003, Mr. Baltazar N. Endriga, a UE CBA Manila alumnus, 
+                            succeeded her as President, his UE presidency running from August 2003 to July 2005. Chairman Domingo was once again 
+                            the concurrent President from September 2005 up to January 2006, when Dr. Ester Albano Garcia, former Chairperson of the 
+                            Commission on Higher Education (CHED), was appointed UE President.
+                            </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <span>Within five years, the University’s loans were substantially reduced and the long-accumulated operating deficit was eliminated from
+           the books. At the same time, Chairman Domingo embarked on a massive rehabilitation of the institution’s infrastructure and academics. 
+           By the fourth quarter of 1999, under Chairman Domingo, the UE Board of Trustees authorized the retirement of the University’s remaining bank obligations in full, 
+           rendering UE totally debt-free.<br><br> After Chairman Domingo passed away on June 26, 2008, at age 83, Dr. Lucio C. Tan assumed the position of Chairman of the Board and CEO of the University. </span>
+      <br>
+      <hr>
+      <div class="row">
+
+        <div class="col-lg-6">
+          <button class="accordion">ADMISSION</button>
+            <div class="panel" style="text-align: justify;  padding-top: 20px;"> 
+              <ul>
+                <li>Pre-admission requirements</li>
+                <li>Accomplished Application Form</li>
+                <li>One copy of the applicant’s latest 2″x 2″ photo</li>
+                <li>One of the following where applicable:</li>
+                <li>For Grade 12 graduates: Grade 12 report card</li>
+                <li>For graduates of Non-Formal Education: PEPT/ALS rating</li>
+                <li>For current Grade 12 students: Grade 11 report card</li>
+                <li>For college transferees: Transcript of records or Certification of grades</li>
+                <li>For degree holders: Transcript of records</li>
+                <li>For cross-enrollees: Permit to cross-enroll</li>
+              </ul>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+          <button class="accordion">COURSES ON DEMAND OFFERED</button>
+          <div class="panel" style="text-align: justify;  padding-top: 10px;">
+            <div class="row">
+              <span style="padding-top: 20px"><b>Best Course: </b><mark style="background-color: #FFFF00;"> Education and Teacher Training</mark></span>
+              <div class="col-lg-10 col-sm-6">
+                <div class="boxdiv">
+                  Business Administration and Related Courses
+                </div>
+                <div class="boxdiv">
+                  Medical and Allied
+                </div>
+                <div class="boxdiv">
+                  Education and Teacher Training
+                </div>
+                <div class="boxdiv">
+                  Information Technology Related Discipline
+                </div>
+                <div class="boxdiv">
+                  Engineering and Technology
+                </div>
+                <div class="boxdiv">
+                  Religion and Theology
+                </div>
+                <div class="boxdiv">
+                  Maritime Education
+                </div>
+                <div class="boxdiv">
+                  Trade, Craft, and Industrial
+                </div>
+                <div class="boxdiv">
+                  Agricultural, Forestry, and Fisheries and Veterinary Medicine
+                </div>
+                <div class="boxdiv">
+                  Social and Behavioral Science
+                </div>
+              </div>
+              <div class="col-lg-2 col-sm-6 text-center">
+                <div class="boxdiv"> ✓ </div>
+                <div class="boxdiv"> ✓ </div>
+                <div class="boxdiv"> ✓ </div>
+                <div class="boxdiv"> ✓ </div>
+                <div class="boxdiv"> ✓ </div>
+                <div class="boxdiv"> ☓ </div>
+                <div class="boxdiv"> ☓ </div>
+                <div class="boxdiv"> ✓ </div>
+                <div class="boxdiv"style="padding-top: 20px;"><p>☓</p></div>
+                <div class="boxdiv">✓</div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-lg-6">
+        <button class="accordion">SERVICES</button>
+          <div class="panel" style="text-align: justify;  padding-top: 20px;"> 
+            <ul>  
+              <li>Telephone Directory</li>
+              <li>Email Directory</li>
+              <li>UE Forms</li>
+              <li>Admissions</li>
+              <li>Department of Registration and Records Management</li>
+              <li>Information Technology Department</li>
+              <li>Office of Curriculum Development and Instruction</li>
+              <li>Office of Research Coordination</li>
+              <li>University of Relations Office</li>
+            </ul>
+          </div>
+      </div>
+
+      <div class="col-lg-6">
+        <button class="accordion">CONTACT DETAILS</button>
+        <div class="panel" style="text-align: justify; padding-top: 10px;">
+          <h6><i class="fa fa-map-marker" style="font-size:20px; color:rgb(25, 75, 211)"></i>   2219 C.M. Recto Avenue, Brgy. 404, Zone 41,  
+          <br>&ensp;&nbsp; Sampaloc, Manila, Philippines</h6><br>
+          <h6><i class="fa fa-phone" style="font-size:20px; color:rgb(25, 75, 211)"></i>   Manila Campus (632) 8735-54-71</h6><br>
+          <h6><i class="fa fa-phone" style="font-size:20px; color:rgb(25, 75, 211)"></i>   Caloocan Campus (632) 8367-45-72</h6><br>
+          <h6><i class="fa fa-phone" style="font-size:20px; color:rgb(25, 75, 211)"></i>   UERMMMCI (632) 8715-08-61</h6><br>
+        </div>
+      </div>
+      <hr>
+
+      <div class="row justify-content-center" style="padding-top: 50px; " >
+      <h1 class="text-center font-weight-bold" style="padding-bottom:25px; color:black;">ALUMNI</h1>            
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                  <img src="./UE-ALUMNI/Xian.png" class="card-img-top img-fluid" style="width: 70%; margin-top: 10px; margin-bottom: 30px; margin-left:60px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Xian Lim</h5>
+                    <p class="card-text">&emsp;&ensp;Before becoming an actor and model, Xian studied in UE as a basketball varsity scholar 
+                      like his father Godofredo Lim Uy. In an interview with Spin.ph, PBA D-League's Cloudfone team owner Eric Yu disclosed, "The reason why [Xian Lim] 
+                      came to the Philippines was to pursue his basketball career. His movie career was an offshoot of his basketball career."</p>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                  <img src="./UE-ALUMNI/Noli.png" class="card-img-top img-fluid" style="width: 70%; margin-top: 10px; margin-bottom: 30px; margin-left:60px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Noli De Castro</h5>
+                    <p class="card-text" style="padding-bottom: 120px;">&emsp;&ensp; Popularly known as "Kabayan," the ABS-CBN Broadcaster and former Vice President of the 
+                      Philippines graduated in 1971 with a degree in Bachelor of Commerce, major in Banking and Finance.</p>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                  <img src="./UE-ALUMNI/James.png" class="card-img-top img-fluid" style="width: 70%; margin-top: 10px; margin-bottom: 30px; margin-left:60px;">
+                  <div class="card-body">
+                    <h5 class="card-title">James Yap</h5>
+                    <p class="card-text" style="padding-bottom: 145px;">&emsp;&ensp; He represented the University of the East basketball varsity team. The University of the East alum previously 
+                      played for the Welcoat team in the defunct Philippine Basketball League (PBL).</p>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                  <img src="./UE-ALUMNI/Alfredo.png" class="card-img-top img-fluid" style="width: 55.3%; margin-top: 10px; margin-bottom: 30px; margin-left:90px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Alfredo Lim</h5>
+                    <p class="card-text">&emsp;&ensp;He finished primary school as a salutatorian at the P. Gomez Elementary School in 1943. 
+                      Lim graduated high school in 1948 at the Far Eastern University. He earned a degree of business administration in 1951 and a Bachelor of Law in 1963 
+                      at the University of the East.</p>
+                  </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                  <img src="./UE-ALUMNI/Lucio.png " class="card-img-top img-fluid" style="width: 80%; margin-top: 10px; margin-bottom: 30px; margin-left:40px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Lucio Tan</h5>
+                    <p class="card-text">&emsp;&ensp; Though the companies of Lucio Tan Group has been involved in various social responsible programs, Tan has benevolent 
+                      personal philanthropy works, particularly in the academic sector. Notable of which is his ownership stake with the University of the East, resulting 
+                      for the erection of the nine-storey Dr. Lucio C. Tan Building on the university's Caloocan City campus.</p>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+<!-- UST -->
+<section id="UST">
+      <div class="container">
+        <div class="row" style="margin-top: 150px;">
+          <div class="heh container shadow-lg col-lg-6 col-sm-12 col-md-12  ">
+            <div 
+              id="carouselExampleCaptions" 
+              class="carousel slide carousel-fade"
+              data-bs-interval="10000"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="1"
+                  aria-current="true"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="2"
+                  aria-current="true"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="3"
+                  aria-current="true"
+                  aria-label="Slide 4"
+                ></button>
+              </div>
+              <div class="carousel-inner" >
+                <div class="carousel-item active" data-interval="100">
+                  <img 
+                    src="./UST CAMPUS.png"
+                    class="d-block w-100"
+                    alt="Carousel 1"
+                    height="500px"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    
+                  </div>
+                </div>
+                <div class="carousel-item" data-interval="200">
+                  <img 
+                    src="./UST1.png"
+                    class="d-block w-100"
+                    alt="Carousel 2"
+                    height="500px"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    
+                  </div>
+                </div>
+                <div class="carousel-item" data-interval="300">
+                  <img 
+                    src="./UST2.jpg"
+                    class="d-block w-100"
+                    alt="Carousel 3"
+                    height="500px"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    
+                  </div>
+                </div>
+          
+                <div class="carousel-item" data-interval="400">
+                  <img 
+                    src="./UST3.jpg"
+                    class="d-block w-100"
+                    alt="Carousel 4"
+                    height="500px"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 col-md-12 d-flex align-items-center">
+              <div class="card border-0">
+                  <div class=" card-body">
+                      <div class="col-sm-12">
+                          <h3 class="card-title" style="text-align: center;"><b>UNIVERSITY OF SANTO TOMAS</b></h3>
+                          <p class="card-text" style="text-align: justify; padding-top:20px;">
+                            University of Santo Tomas or UST is Asia's oldest university. In terms of student numbers, it is the world's largest 
+                            Catholic university on a single campus. Bishop Miguel de Benavides, O.P., the third Archbishop of Manila, spearheaded 
+                            the establishment of the school.<br><br>
+                            </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <br>
+      <hr>
+      <div class="row">
+        
+        <div class="col-lg-12" style="padding-bottom: 40px;">
+          <h4>ACHIEVEMENTS</h4> 
+          <div class="row" style="padding-left: 20px; padding-top: 20px;">
+            <div class="col-lg-12 text-justify">
+             <p>UST has produced national heroes, church martyrs, renowned scientists,
+             national artists,</p><p>internationally renowned business people and athletes,prominent doctors,</p> <p>4 presidents of 
+                the Philippines, 3 vice presidents and 6 Chief Justices.</p>
+            </div>
+          </div>  
+        </div>
+
+        <div class="col-lg-6">
+          <button class="accordion">ADMISSION</button>
+            <div class="panel" style="text-align: justify;  padding-top: 20px;"> 
+              <ul>
+                <li>
+                  For the Academic Year 2022-2023, the University of Santo Tomas Entrance Test (USTET) will not be administered in 
+                  consideration of the quarantine restrictions that are currently in effect in the country. <br><br> Instead, admission to UST 
+                  for the AY 2022-2023 shall be through the University of Santo Tomas Admission Rating (USTAR). The USTAR is a score 
+                  that will be computed from a number of parameters derived largely from the academic performance and record of the 
+                  applicant.
+                </li><br>
+                <li>Please be advised of the new payment instructions. Kindly click below.</li> <br>
+                <li>Application receipts for SHS and College will be released on February 18, 2022, and may be downloaded through your 
+                  application portal. There is no need to email the Office for Admissions to make a follow-up. Thank you.
+                </li>
+              </ul>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+          <button class="accordion">COURSES ON DEMAND OFFERED</button>
+          <div class="panel" style="text-align: justify;  padding-top: 10px;">
+            <div class="row">
+              <span style="padding-top: 20px"><b>Best Course: </b><mark style="background-color: #FFFF00;"> Medicine, Nursing, and Pharmacy</mark></span>
+              <div class="col-lg-10 col-sm-6">
+                <div class="boxdiv">
+                  Business Administration and Related Courses
+                </div>
+                <div class="boxdiv">
+                  Medical and Allied
+                </div>
+                <div class="boxdiv">
+                  Education and Teacher Training
+                </div>
+                <div class="boxdiv">
+                  Information Technology Related Discipline
+                </div>
+                <div class="boxdiv">
+                  Engineering and Technology
+                </div>
+                <div class="boxdiv">
+                  Religion and Theology
+                </div>
+                <div class="boxdiv">
+                  Maritime Education
+                </div>
+                <div class="boxdiv">
+                  Trade, Craft, and Industrial
+                </div>
+                <div class="boxdiv">
+                  Agricultural, Forestry, and Fisheries and Veterinary Medicine
+                </div>
+                <div class="boxdiv">
+                Social and Behavioral Science 
+                </div>
+              </div>
+              <div class="col-lg-2 col-sm-6 text-center">
+                <div class="boxdiv"> ✓ </div>
+                <div class="boxdiv"> ✓ </div>
+                <div class="boxdiv"> ✓ </div>
+                <div class="boxdiv"> ✓ </div>
+                <div class="boxdiv"> ✓ </div>
+                <div class="boxdiv"> ☓ </div>
+                <div class="boxdiv"> ☓ </div>
+                <div class="boxdiv"> ✓ </div>
+                <div class="boxdiv" style="padding-top: 20px;"><p>☓</p></div>
+                <div class="boxdiv"> ✓ </div>
+              </div>
+              <span style="padding-bottom: 30px;"><b>Tuition:</b> (RANGE) 
+              40K-60K (PER SEMESTER)	
+              80K-150K (FULL TUITION)</span>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-lg-6">
+        <button class="accordion">SERVICES</button>
+          <div class="panel" style="text-align: justify;  padding-top: 20px;"> 
+            <ul>
+              <li>
+                One with the University in its commitment to the quest for Truth, the Office of the 
+                Registrar is responsible for maintaining the integrity of the academic records of students 
+                under its custody, making them available upon request, subject to existing rules and regulations.
+              </li>
+            </ul>
+          </div>
+      </div>
+
+      <div class="col-lg-6">
+        <button class="accordion">CONTACT DETAILS</button>
+        <div class="panel" style="text-align: justify; padding-top: 10px;">
+          <h6><i class="fa fa-envelope" style="font-size:20px; color:rgb(25, 75, 211)"></i>   cb.online@ust.edu.ph </h6><br>
+          <h6><i class="fa fa-phone" style="font-size:20px; color:rgb(25, 75, 211)"></i>&nbsp;  +63-2-3406-1611  <br><br>
+            &ensp;&emsp;+63-2-8786-1611 <br><br>
+            &ensp;&emsp;+63-2-8553-1611 <br><br>
+            &ensp;&emsp;+63-2-8880-1611
+            </h6><br>
+        </div>
+      </div>
+      <hr>
+
+      <div class="row justify-content-center" style="padding-top: 50px; " >
+      <h1 class="text-center font-weight-bold" style="padding-bottom:25px; color:black;">ALUMNI</h1>            
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                  <img src="./UST-ALUMNI/Iza.png" class="card-img-top img-fluid" style="width: 55%; margin-top: 10px; margin-bottom: 30px; margin-left:90px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Maria Izadora Ussher "Iza" <br> Calzado-Wintle</h5>
+                    <p class="card-text">&emsp;&ensp;A Filipino actress, television host, dancer, and model who previously worked as one of 
+                      GMA Network's homegrown contract artists. She took the course of College of Fine Arts & Design.</p>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                  <img src="./UST-ALUMNI/Janine.png" class="card-img-top img-fluid" style="width: 70%; margin-top: 10px; margin-bottom: 30px; margin-left:60px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Janine Tugonon</h5>
+                    <p class="card-text" style="padding-bottom: 117px;">&emsp;&ensp;Graduated cum laude from the UST's Faculty of Pharmacy in 2010.</p>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                  <img src="./UST-ALUMNI/Belo.png" class="card-img-top img-fluid" style="width: 70%; margin-top: 10px; margin-bottom: 30px; margin-left:60px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Vicki Belo and Hayden Kho</h5>
+                    <p class="card-text" style="padding-bottom: 92px;">&emsp;&ensp; Vicki Belo and Hayden Kho completed their degree in Medicine and Surgery at the University of Santo Tomas.</p>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                  <img src="./UST-ALUMNI/Piolo.png" class="card-img-top img-fluid" style="width: 70%; margin-top: 10px; margin-bottom: 30px; margin-left:60px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Piolo Pascual</h5>
+                    <p class="card-text" style="padding-bottom: 39px;">&emsp;&ensp;The Kapamilya actor briefly joined That's Entertainment before going full-time 
+                      as a college student in UST, where he initially took up AB General Education then shifted to Physical Therapy.</p>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                  <img src="./UST-ALUMNI/Lapus.png" class="card-img-top img-fluid" style="width: 60%; margin-top: 10px; margin-bottom: 30px; margin-left:80px;">
+                  <div class="card-body">
+                    <h5 class="card-title">John Lapus</h5>
+                    <p class="card-text">&emsp;&ensp;  A comedian/writer/director, finished Hotel and Restaurant Management.</p>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+<!-- NU -->
+<section id="NU">
+    <div class="container">
+      <div class="row" style="margin-top: 150px;">
+        <div class="heh container shadow-lg col-lg-6 col-sm-12 col-md-12  ">
+          <div 
+            id="carouselExampleCaptions" 
+            class="carousel slide carousel-fade"
+            data-bs-interval="10000"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-current="true"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-current="true"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="3"
+                aria-current="true"
+                aria-label="Slide 4"
+              ></button>
+            </div>
+            <div class="carousel-inner" >
+              <div class="carousel-item active" data-interval="1000">
+                <img 
+                  src="./NU CAMPUS.png"
+                  class="d-block w-100"
+                  alt="Carousel 1"
+                  height="500px"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item" data-interval="2000">
+                <img 
+                  src="./NU1.png"
+                  class="d-block w-100"
+                  alt="Carousel 2"
+                  height="500px"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item" data-interval="3000">
+                <img 
+                  src="./NU2.png"
+                  class="d-block w-100"
+                  alt="Carousel 3"
+                  height="500px"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+        
+              <div class="carousel-item" data-interval="4000">
+                <img 
+                  src="./NU3.png"
+                  class="d-block w-100"
+                  alt="Carousel 4"
+                  height="500px"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 col-md-12 d-flex align-items-center">
+            <div class="card border-0">
+                <div class=" card-body">
+                    <div class="col-sm-12">
+                        <h3 class="card-title" style="text-align: center;"><b>NATIONAL UNIVERSITY</b></h3>
+                        <p class="card-text" style="text-align: justify; padding-top:20px;">
+                          The National University, sometimes known as National U, is a private, non-sectarian, coeducational university in Sampaloc, 
+                          Manila, Philippines. Mariano F. Jhocson Sr., the university's founder, founded the college on August 1, 1900, as Colegio 
+                          Filipino in Quiapo, Manila.<br><br>
+                          </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div class="row">     
+      <div class="col-lg-12" style="padding-bottom: 40px;">
+        <h4>ACHIEVEMENTS</h4> 
+        <div class="row" style="padding-left: 20px; padding-top: 20px; text-align: justify;">
+          <div class="col-lg-6">
+            <li>
+              In 2002, National was the first university since 1996 to be recognized with a Eureka ("Baby Baldrige") 
+              Award by the California Council for Excellence. In 2003, National received its second Eureka Award – 
+              the only institution of higher education to be recognized.
+            </li>
+          </div>
+          <div class="col-lg-6">
+            <li>
+              For more than 120 years, National University has been recognized for its academic excellence which has 
+              formed the country's most successful movers and shakers in various industries. As an institution, we 
+              continue to evolve and expand by making education accessible within your reach.
+            </li>
+          </div>
+        </div>
+      </div>  
   
+
+      <div class="col-lg-6">
+        <button class="accordion">ADMISSION</button>
+          <div class="panel" style="text-align: justify;  padding-top: 20px;"> 
+            <ul>
+              <li>Official Transcript of Records (TOR)/ Scholastic Records </li>
+              <li>Honorable Dismissal / Transfer Credentials </li>
+              <li>Photocopy of Diploma</li>
+              <li>Course Description of courses taken and passed</li>
+              <li>Photocopy of the NSO Birth Certificate</li>
+              <li>Photocopy of the Marriage Certificate</li>
+              <li>Recent two (2) pieces 2x2 colored ID Pictures</li>
+            </ul>
+          </div>
+      </div>
+
+      <div class="col-lg-6">
+        <button class="accordion">COURSES ON DEMAND OFFERED</button>
+        <div class="panel" style="text-align: justify;  padding-top: 10px;">
+          <div class="row">
+            <div class="col-lg-10 col-sm-6">
+              <div class="boxdiv">
+                Business Administration and Related Courses
+              </div>
+              <div class="boxdiv">
+                Medical and Allied
+              </div>
+              <div class="boxdiv">
+                Education and Teacher Training
+              </div>
+              <div class="boxdiv">
+                Information Technology Related Discipline
+              </div>
+              <div class="boxdiv">
+                Engineering and Technology
+              </div>
+              <div class="boxdiv">
+                Religion and Theology
+              </div>
+              <div class="boxdiv">
+                Maritime Education
+              </div>
+              <div class="boxdiv">
+                Trade, Craft, and Industrial
+              </div>
+              <div class="boxdiv">
+                Agricultural, Forestry, and Fisheries and Veterinary Medicine
+              </div>
+              <div class="boxdiv">
+              Social and Behavioral Science 
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-6 text-center">
+              <div class="boxdiv"> ✓ </div>
+              <div class="boxdiv"> ✓ </div>
+              <div class="boxdiv"> ✓ </div>
+              <div class="boxdiv"> ✓ </div>
+              <div class="boxdiv"> ✓ </div>
+              <div class="boxdiv"> ☓ </div>
+              <div class="boxdiv"> ☓ </div>
+              <div class="boxdiv"> ☓ </div>
+              <div class="boxdiv" style="padding-top: 20px;"><p>☓</p></div>
+              <div class="boxdiv"> ☓ </div>
+            </div>
+            <span style="padding-bottom: 30px;"><b>Tuition:</b> 80K-90K (PER UNIT COURSE)</span>
+          </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6">
+      <button class="accordion">SERVICES</button>
+        <div class="panel" style="text-align: justify;  padding-top: 20px;"> 
+          <ul>
+            <li>
+              National University provides a wide range of services and resources to assist you in attaining your educational goals.
+            </li><br>
+            <li>
+              At National University, we strive to give our students the best experience possible—which is why we offer a wide range of 
+              services to support you from enrollment through graduation. Whether you need career guidance, veteran services, tutoring 
+              information, or help adjusting to our rigorous one-course-per-month format, our knowledgeable and caring staff is readily 
+              available to assist you. We understand the demands of student life, and we’ll do everything possible to ensure a smooth and 
+              rewarding journey.
+            </li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="col-lg-6">
+      <button class="accordion">CONTACT DETAILS</button>
+      <div class="panel" style="text-align: justify; padding-top: 10px;">
+        <h6><i class="fa fa-map-marker" style="font-size:20px; color:rgb(25, 75, 211)"></i>   551 M.F. Jhocson St. Sampaloc, Manila, PH 1008</h6><br>
+        <h6><i class="fa fa-envelope" style="font-size:20px; color:rgb(25, 75, 211)"></i>   admissions@national-u.edu.ph </h6><br>
+        <h6><i class="fa fa-phone" style="font-size:20px; color:rgb(25, 75, 211)"></i>&nbsp;  +632 8712-1900</h6><br>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row justify-content-center" style="padding-top: 50px; " >
+    <h1 class="text-center font-weight-bold" style="padding-bottom:25px; color:black;">ALUMNI</h1>            
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                <img src="./NU-ALUMNI/Fidel.png" class="card-img-top img-fluid" style="width: 60%; margin-top: 10px; margin-bottom: 30px; margin-left:90px;">
+                <div class="card-body">
+                  <h5 class="card-title">Fidel V. Ramos</h5>
+                  <p class="card-text" style="padding-bottom: 71px;">&emsp;&ensp;12th President of the Philippines, Chief of Staff - Armed Forces of the Philippines, professional soldier 
+                    and 8th placer in the Civil Engineering Licensure Examination in 1953.</p>
+                </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                <img src="./NU-ALUMNI/Carlos.png" class="card-img-top img-fluid" style="width: 50%; margin-top: 10px; margin-bottom: 30px; margin-left:100px;">
+                <div class="card-body">
+                  <h5 class="card-title">Carlos P. Garcia</h5>
+                  <p class="card-text">&emsp;&ensp;8th President of the Philippines, lawyer, teacher and a poet. Bachelor of Laws 
+                    (Philippine Law School), Doctor of Humanities (Honoris Causa) National University in 1961</p>
+                </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                <img src="./NU-ALUMNI/Nestor.png" class="card-img-top img-fluid" style="width: 45%; margin-top: 10px; margin-bottom: 30px; margin-left:110px;">
+                <div class="card-body">
+                  <h5 class="card-title">Néstor Vicente Madali González</h5>
+                  <p class="card-text" style="padding-bottom: 51px;">&emsp;&ensp; A Filipino novelist, short story writer, essayist 
+                    and poet. Conferred as the National Artist of the Philippines for Literature in 1997.</p>
+                </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                <img src="./NU-ALUMNI/Marti.png" class="card-img-top img-fluid" style="width: 60%; margin-top: 10px; margin-bottom: 30px; margin-left:80px;">
+                <div class="card-body">
+                  <h5 class="card-title">Marti Emerald</h5>
+                  <p class="card-text" style="padding-bottom: 26px;">&emsp;&ensp;A California politician and former television journalist. She is a Democrat, 
+                    although City Council positions are officially nonpartisan per California state law.</p>
+                </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                <img src="./NU-ALUMNI/Rafael.png" class="card-img-top img-fluid" style="width: 50%; margin-top: 10px; margin-bottom: 30px; margin-left:100px;">
+                <div class="card-body">
+                  <h5 class="card-title">Rafael P. Nantes</h5>
+                  <p class="card-text">&emsp;&ensp;  A Licensed Mechanical Engineer, businessman, three-term Congressman and former Governor of Quezon.</p>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+  
+<!-- DLSU -->
+<section id="DLSU">
+    <div class="container">
+      <div class="row" style="margin-top: 150px;">
+        <div class="heh container shadow-lg col-lg-6 col-sm-12 col-md-12  ">
+          <div 
+            id="carouselExampleCaptions" 
+            class="carousel slide carousel-fade"
+            data-bs-interval="10000"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-current="true"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-current="true"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="3"
+                aria-current="true"
+                aria-label="Slide 4"
+              ></button>
+            </div>
+            <div class="carousel-inner" >
+              <div class="carousel-item active" data-interval="1000">
+                <img 
+                  src="./DLSU CAMPUS.png"
+                  class="d-block w-100"
+                  alt="Carousel 1"
+                  height="500px"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item" data-interval="2000">
+                <img 
+                  src="./DLSU1.png"
+                  class="d-block w-100"
+                  alt="Carousel 2"
+                  height="500px"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+              <div class="carousel-item" data-interval="3000">
+                <img 
+                  src="./DLSU2.png"
+                  class="d-block w-100"
+                  alt="Carousel 3"
+                  height="500px"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+        
+              <div class="carousel-item" data-interval="4000">
+                <img 
+                  src="./DLSU3.png"
+                  class="d-block w-100"
+                  alt="Carousel 4"
+                  height="500px"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 col-md-12 d-flex align-items-center">
+            <div class="card border-0">
+                <div class=" card-body">
+                    <div class="col-sm-12">
+                        <h3 class="card-title" style="text-align: center;"><b>DE LA SALLE UNIVERSITY</b></h3>
+                        <p class="card-text" style="text-align: justify; padding-top:20px;">
+                          De La Salle University positions itself as a leader in molding human resources who serve the church and the nation. 
+                          It is a Catholic coeducational institution founded in 1911 by the Brothers of the Christian Schools. The University 
+                          is a hub for higher education training renowned for its academic excellence, prolific and relevant research, and 
+                          involved community service.
+                          <br><br>
+                          Nestled in the heart of Manila, De La Salle University is home to local and international students seeking quality 
+                          education for a brighter future ahead. It is situated in a vibrant city where culture and diversity is well manifested.
+                      <br><br>
+                          </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div class="row">     
+      <div class="col-lg-12" style="padding-bottom: 40px;">
+        <h4>ACHIEVEMENTS</h4> 
+        <div class="row" style="padding-left: 20px; padding-top: 20px; text-align: justify;">
+          <div class="col-lg-6">
+            <li>
+              Among the top higher education institutions worldwide based on the Times 
+              Higher Education 2019 and 2020 World University Rankings
+            </li><br>
+            <li>
+              The first university in Southeast Asia to receive the Quality Mark at the 
+              Institutional Level from the ASEAN University Network.
+            </li><br>
+            <li>
+              Has the most number of programs assessed by the ASEAN University Network 
+              Quality Assurance Team in the Philippines, at 18 programs.
+            </li>
+          </div>
+          <div class="col-lg-6">
+            <li>
+              Has the highest total research output among Philippine private higher 
+              educational institutions for the period 2014-2019 based on Scopus-indexed 
+              publications.
+            </li><br>
+            <li>
+              Has 14 Centers of Excellence awarded by the country's Commission on Higher 
+              Education, the most among Philippine private higher educational institutions.
+            </li>
+          </div>
+        </div>
+      </div>  
+  
+
+      <div class="col-lg-6">
+        <button class="accordion">ADMISSION</button>
+          <div class="panel" style="text-align: justify;  padding-top: 20px;"> 
+            <ul>
+              <li>De La Salle University will not administer the DLSU College Admission Test (DCAT) 
+                for A.Y. 2022-2023 Freshman Admissions due to the current situation in the country. 
+              </li><br>
+              <li>Admission to the University and the chosen degree program will be based on an applicant’s 
+                high school academic records and other criteria, such as recommendations provided by subject 
+                teachers/high school principals and guidance counselors, class rank, and all pertinent information 
+                indicated on the application form. 
+              </li><br>
+              <li>Applicants who wish to submit international credentials such as SAT, IB Diploma, and AP may do 
+                so for both admission to a degree program and for crediting purposes.
+              </li>
+            </ul>
+          </div>
+      </div>
+
+      <div class="col-lg-6">
+        <button class="accordion">COURSES ON DEMAND OFFERED</button>
+        <div class="panel" style="text-align: justify;  padding-top: 10px;">
+          <div class="row">
+            <span style="padding-top: 20px"><b>Best Course: </b><mark style="background-color: #FFFF00;"> Business Administration and Related Courses</mark></span>
+            <div class="col-lg-10 col-sm-6">
+              <div class="boxdiv">
+                Business Administration and Related Courses
+              </div>
+              <div class="boxdiv">
+                Medical and Allied
+              </div>
+              <div class="boxdiv">
+                Education and Teacher Training
+              </div>
+              <div class="boxdiv">
+                Information Technology Related Discipline
+              </div>
+              <div class="boxdiv">
+                Engineering and Technology
+              </div>
+              <div class="boxdiv">
+                Religion and Theology
+              </div>
+              <div class="boxdiv">
+                Maritime Education
+              </div>
+              <div class="boxdiv">
+                Trade, Craft, and Industrial
+              </div>
+              <div class="boxdiv">
+                Agricultural, Forestry, and Fisheries and Veterinary Medicine
+              </div>
+              <div class="boxdiv">
+              Social and Behavioral Science 
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-6 text-center">
+              <div class="boxdiv"> ✓ </div>
+              <div class="boxdiv"> ✓ </div>
+              <div class="boxdiv"> ✓ </div>
+              <div class="boxdiv"> ✓ </div>
+              <div class="boxdiv"> ✓ </div>
+              <div class="boxdiv"> ✓ </div>
+              <div class="boxdiv"> ☓ </div>
+              <div class="boxdiv"> ☓ </div>
+              <div class="boxdiv" style="padding-top: 20px;"><p>✓</p></div>
+              <div class="boxdiv"> ✓ </div>
+            </div>
+            <span style="padding-bottom: 30px;"><b>Tuition:</b> 160K-220K (FULL TUITION)</span>
+          </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6">
+      <button class="accordion">SERVICES</button>
+        <div class="panel" style="text-align: justify;  padding-top: 20px;"> 
+          <ul>
+            <li>
+              The DLSU Innovation and Technology Office (DITO) is the knowledge and technology-transfer 
+              office of De La Salle University. We help faculty and students transform their ideas and 
+              research projects into products and services that solve problems, generate value for the 
+              University, and foster inclusive economic growth in the country.
+            </li><br>
+            <li>
+              The Support Services Office oversees the transportation services, mailing services and materials 
+              reproduction services of the University. It maintains a fleet of vehicles to provide shuttle 
+              services among the different DLSU campuses. 
+            </li><br>
+            <li>
+              The Student Leadership Involvement, Formation and Empowerment Office (Student LIFE) seeks to 
+              develop and implement programs that promote self-sustaining development and positive influence 
+              towards effective personal and organizational leadership.
+            </li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="col-lg-6">
+      <button class="accordion">CONTACT DETAILS</button>
+      <div class="panel" style="text-align: justify; padding-top: 10px;">
+        <h6><i class="fa fa-map-marker" style="font-size:20px; color:rgb(25, 75, 211)"></i>   2nd floor Henry Sy Sr. Hall
+          De La Salle University
+          2401 Taft Avenue<br>&ensp;&nbsp;
+          1004 Manila, Philippines2
+          </h6><br>
+        <h6><i class="fa fa-envelope" style="font-size:20px; color:rgb(25, 75, 211)"></i>   hub@disu.edu.ph </h6><br>
+        <h6><i class="fa fa-phone" style="font-size:20px; color:rgb(25, 75, 211)"></i>  (632) 8524-4611 loc 114 (Extension Line)</h6><br>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row justify-content-center" style="padding-top: 50px; " >
+    <h1 class="text-center font-weight-bold" style="padding-bottom:25px; color:black;">ALUMNI</h1>            
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                <img src="./DLSU-ALUMNI/Benjamin.png" class="card-img-top img-fluid" style="width: 60%; margin-top: 10px; margin-bottom: 30px; margin-left:80px;">
+                <div class="card-body">
+                  <h5 class="card-title">Benjamin Abalos, Jr</h5>
+                  <p class="card-text">&emsp;&ensp;Member of the House of Representatives of the 
+                    Philippines from 2004 to 2007, Mayor of Mandaluyong, (June 30, 1998 – June 30, 2004, June 30, 2007 - June 30, 2016), 
+                    History and Political Science</p>
+                </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                <img src="./DLSU-ALUMNI/Carla.png" class="card-img-top img-fluid" style="width: 60%; margin-top: 10px; margin-bottom: 30px; margin-left:80px;">
+                <div class="card-body">
+                  <h5 class="card-title">Carla Abellana</h5>
+                  <p class="card-text" style="padding-bottom: 97px;">&emsp;&ensp; Actress, born: Carla Angeline Reyes on June 12, 1986 (age 35), Psychology (AB-PSM) cum laude</p>
+                </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                <img src="./DLSU-ALUMNI/Arjo.png" class="card-img-top img-fluid" style="width: 80%; margin-top: 10px; margin-bottom: 30px; margin-left:40px;">
+                <div class="card-body">
+                  <h5 class="card-title">Arjo Atayde</h5>
+                  <p class="card-text" style="padding-bottom: 99px;">&emsp;&ensp; Actor, born: Juan Carlos Campos Atayde on November 16, 1990 (age 31); 
+                    daughter of veteran actress Sylvia Sanchez,  Entrepreneurship</p>
+                </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                <img src="./DLSU-ALUMNI/Kisses.png" class="card-img-top img-fluid" style="width: 70%; margin-top: 10px; margin-bottom: 30px; margin-left:60px;">
+                <div class="card-body">
+                  <h5 class="card-title">Kisses Delavin</h5>
+                  <p class="card-text" style="padding-bottom: 28px;">&emsp;&ensp;Actress, beauty queen, brand endorser, singer and model,  
+                    Accountancy (now Business Administration).</p>
+                </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+                <img src="./DLSU-ALUMNI/Jose.png" class="card-img-top img-fluid" style="width: 70%; margin-top: 10px; margin-bottom: 30px; margin-left:60px;">
+                <div class="card-body">
+                  <h5 class="card-title">Jose Diokno</h5>
+                  <p class="card-text">&emsp;&ensp;  Senator of the Philippines in 1963–1969 and 1968–1972,  Commerce.</p>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+    
+<!-- FEU -->
+<section id="FEU">
+    <div class="container">
+    <div class="row" style="margin-top: 150px;">
+      <div class="heh container shadow-lg col-lg-6 col-sm-12 col-md-12  ">
+        <div 
+          id="carouselExampleCaptions" 
+          class="carousel slide carousel-fade"
+          data-bs-interval="10000"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-current="true"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-current="true"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-current="true"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner" >
+            <div class="carousel-item active" data-interval="1000">
+              <img 
+                src="./FEU CAMPUS.png"
+                class="d-block w-100"
+                alt="Carousel 1"
+                height="500px"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                
+              </div>
+            </div>
+            <div class="carousel-item" data-interval="2000">
+              <img 
+                src="./FEU1.png"
+                class="d-block w-100"
+                alt="Carousel 2"
+                height="500px"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                
+              </div>
+            </div>
+            <div class="carousel-item" data-interval="3000">
+              <img 
+                src="./FEU2.png"
+                class="d-block w-100"
+                alt="Carousel 3"
+                height="500px"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                
+              </div>
+            </div>
+      
+            <div class="carousel-item" data-interval="4000">
+              <img 
+                src="./FEU3.png"
+                class="d-block w-100"
+                alt="Carousel 4"
+                height="500px"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-12 col-md-12 d-flex align-items-center">
+          <div class="card border-0">
+              <div class=" card-body">
+                  <div class="col-sm-12">
+                      <h3 class="card-title" style="text-align: center;"><b>FAR EASTERN UNIVERSITY</b></h3>
+                      <p class="card-text" style="text-align: justify; padding-top:20px;">
+                        Established in 1928, Far Eastern University is a private higher-education institution located in the urban 
+                        setting of the metropolis of Manila (population range of 1,000,000-5,000,000 inhabitants), National Capital Region. 
+                        This institution also has a branch campus in Diliman and Fairview. Officially recognized by the Commission on Higher 
+                        Education of the Philippines, Far Eastern University (FEU) is a large (uniRank enrollment range: 20,000-24,999 students) 
+                        coeducational Philippine higher education institution.
+                        <br><br>
+                        This 92 years old Philippine higher-education institution has a selective admission policy based on entrance examinations 
+                        and students' past academic record and grades. The admission rate range is 50-60% making this Philippine higher education 
+                        organization an averagely selective institution. International applicants are eligible to apply for enrollment. FEU also 
+                        provides several academic and non-academic facilities and services to students including a library, sports facilities, 
+                        financial aids and/or scholarships, study abroad and exchange programs, as well as administrative services.
+                        <br><br>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <br>
+  <hr>
+  <div class="row">     
+    <div class="col-lg-12" style="padding-bottom: 40px;">
+      <h4>ACHIEVEMENTS</h4> 
+      <div class="row" style="padding-left: 20px; padding-top: 20px; text-align: justify;">
+        <div class="col-lg-6">
+          <li>
+            The school was also acknowledged as one of the Top 5 Philippine Publicly Listed Companies in the Services Sector, 
+            and the only educational institution in the country to be so. Furthermore, the school won the 2019 Asia Pacific 
+            Entrepreneurship Awards Philippines' for the Education and Training Industry.
+          </li>
+        </div>
+        <div class="col-lg-6">
+          <li>
+            Far Eastern University has long been regarded as one of the top universities in the Philippines and aims to be a 
+            university of choice in Asia. FEU graduates are globally competitive and exhibit the core values of fortitude, 
+            excellence, and uprightness. Take your first step to becoming a full-fledged FEU Tamaraw.
+          </li>
+        </div>
+      </div>
+    </div>  
+
+
+    <div class="col-lg-6">
+      <button class="accordion">ADMISSION</button>
+        <div class="panel" style="text-align: justify;  padding-top: 20px;"> 
+          <ul>
+            <li>
+              For SY 2022-2023, FEU Student Placement for Admission to College Education (SPACE) will 
+              the FEU College Admission Test (FEUCAT). Academic performance in Grades 11 and 12 will instead 
+              the basis for admission. A provisional screening policy will apply based on the submitted documents. 
+            </li><br>
+            <li>
+              Given the current pandemic crisis and observance of social distancing measures, the FEU High School 
+              Test (FEUHSAT) is waived for admission to SY 2022-2023. The applicant’s academic performance in the 
+              previous grade will be the basis for admissions.
+            </li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="col-lg-6">
+      <button class="accordion">COURSES ON DEMAND OFFERED</button>
+      <div class="panel" style="text-align: justify;  padding-top: 10px;">
+        <div class="row">
+          <span style="padding-top: 20px"><b>Best Course: </b><mark style="background-color: #FFFF00;"> Nursing</mark></span>
+          <div class="col-lg-10 col-sm-6">
+            <div class="boxdiv">
+              Business Administration and Related Courses
+            </div>
+            <div class="boxdiv">
+              Medical and Allied
+            </div>
+            <div class="boxdiv">
+              Education and Teacher Training
+            </div>
+            <div class="boxdiv">
+              Information Technology Related Discipline
+            </div>
+            <div class="boxdiv">
+              Engineering and Technology
+            </div>
+            <div class="boxdiv">
+              Religion and Theology
+            </div>
+            <div class="boxdiv">
+              Maritime Education
+            </div>
+            <div class="boxdiv">
+              Trade, Craft, and Industrial
+            </div>
+            <div class="boxdiv">
+              Agricultural, Forestry, and Fisheries and Veterinary Medicine
+            </div>
+            <div class="boxdiv">
+            Social and Behavioral Science 
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-6 text-center">
+            <div class="boxdiv"> ✓ </div>
+            <div class="boxdiv"> ✓ </div>
+            <div class="boxdiv"> ☓ </div>
+            <div class="boxdiv"> ✓ </div>
+            <div class="boxdiv"> ✓ </div>
+            <div class="boxdiv"> ☓ </div>
+            <div class="boxdiv"> ☓ </div>
+            <div class="boxdiv"> ☓ </div>
+            <div class="boxdiv" style="padding-top: 20px;"><p>✓</p></div>
+            <div class="boxdiv"> ✓ </div>
+          </div>
+          <span style="padding-bottom: 30px;"><b>Tuition:</b> (RANGE) 120K-150K (FULL TUITION)</span>
+        </div>
+      </div>
+  </div>
+
+  <div class="col-lg-6">
+    <button class="accordion">SERVICES</button>
+      <div class="panel" style="text-align: justify;  padding-top: 20px;"> 
+        <ul>
+          <li>
+            FEU Tech provides fully-equipped air-conditioned classrooms and laboratories; high-tech computers, 
+            engineering tools, and equipment; 24-hour security and monitoring; full library services; canteen 
+            and student services; and building-wide WiFi accessibility.
+          </li><br>
+          <li>
+            FEU Institute of Technology is housed in a new 17-story building in the heart of Manila’s famous University Belt. 
+            This brand-new building features all the accouterments of an ultra-modern institute of higher education, including 
+            scenic elevators, electronic library facilities, a covered gym and basketball court, a 25-meter indoor swimming pool, 
+            eco-friendly Green Building Technology, e-Building high tech security, standby power supply and generators, and energy 
+            efficient air conditioning.  
+          </li>
+        </ul>
+      </div>
+  </div>
+
+  <div class="col-lg-6">
+    <button class="accordion">CONTACT DETAILS</button>
+    <div class="panel" style="text-align: justify; padding-top: 10px;">
+      <h6><i class="fa fa-map-marker" style="font-size:20px; color:rgb(25, 75, 211)"></i>   FEU Manila G/F Education Building, N. 
+        Reyes St.<br>&ensp;&nbsp; Sampaloc, Manila
+        </h6><br>
+      <h6><i class="fa fa-envelope" style="font-size:20px; color:rgb(25, 75, 211)"></i>   admissions@feu.edu.ph </h6><br>
+      <h6><i class="fa fa-phone" style="font-size:20px; color:rgb(25, 75, 211)"></i>  (02)87777-338 or (02) 8849-4000 loc 273/274</h6><br>
+    </div>
+  </div>
+  <hr>
+
+  <div class="row justify-content-center" style="padding-top: 50px; " >
+  <h1 class="text-center font-weight-bold" style="padding-bottom:25px; color:black;">ALUMNI</h1>            
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+              <img src="./FEU-ALUMNI/Cory.png" class="card-img-top img-fluid" style="width: 60%; margin-top: 10px; margin-bottom: 30px; margin-left:80px;">
+              <div class="card-body">
+                <h5 class="card-title">Corazon Aquino</h5>
+                <p class="card-text">&emsp;&ensp;Filipino politician who served as the 11th president of the Philippines. Corazon Aquino was the most prominent 
+                  figure of the 1986 People Power Revolution, which ended the two-decade rule of President Ferdinand Marcos and led to the establishment of the 
+                  current democratic Fifth Philippine Republic, Law.</p>
+              </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+              <img src="./FEU-ALUMNI/Vice.png" class="card-img-top img-fluid" style="width: 60%; margin-top: 10px; margin-bottom: 30px; margin-left:80px;">
+              <div class="card-body">
+                <h5 class="card-title">Vice Ganda</h5>
+                <p class="card-text" style="padding-bottom: 69px;">&emsp;&ensp; Filipino comedian, talk show host, television presenter, actor, and singer. 
+                  He is a regular host on ABS-CBN's noontime variety show It's Showtime, and has starred in several films, eight of which are considered to 
+                  be the highest-grossing in Philippine cinema, Political Science.</p>
+              </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+              <img src="./FEU-ALUMNI/Henry.png" class="card-img-top img-fluid" style="width: 70%; margin-top: 10px; margin-bottom: 30px; margin-left:60px;">
+              <div class="card-body">
+                <h5 class="card-title">Henry Sy</h5>
+                <p class="card-text" style="padding-bottom: 137px;">&emsp;&ensp; Filipino business magnate, investor, and philanthropist known for his involvement 
+                  in the Philippines' retail industry, enrolled in FEU’s Commercial Science Program.</p>
+              </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+              <img src="./FEU-ALUMNI/Lucio.png" class="card-img-top img-fluid" style="width: 60%; margin-top: 10px; margin-bottom: 30px; margin-left:80px;">
+              <div class="card-body">
+                <h5 class="card-title">Lucio Tan</h5>
+                <p class="card-text" style="padding-bottom: 125px;">&emsp;&ensp; ​​Filipino billionaire businessman and educator with interests in banking, airline, 
+                  liquor, tobacco, real estate industries, beverages, and education, Chemical Engineering.</p>
+              </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+              <img src="./FEU-ALUMNI/Ramon.png" class="card-img-top img-fluid" style="width: 60%; margin-top: 10px; margin-bottom: 30px; margin-left:80px;">
+              <div class="card-body">
+                <h5 class="card-title">Ramon S. Ang</h5>
+                <p class="card-text">&emsp;&ensp;  Filipino businessman. He is the president and chief executive officer (CEO) of Top Frontier Investment Holdings, Inc. (PSE: TFHI), 
+                  the largest shareholder of San Miguel Corporation (PSE: SMC). He is also the president and CEO of SMC and the chairman of Cyber Bay Corporation (PSE: CYBR) and Eagle 
+                  Cement Corporation (PSE: EAGLE), Mechanical Engineering.</p>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- UP -->
+<section id="UP">
+  <div class="container">
+  <div class="row" style="margin-top: 150px;">
+    <div class="heh container shadow-lg col-lg-6 col-sm-12 col-md-12  ">
+      <div 
+        id="carouselExampleCaptions" 
+        class="carousel slide carousel-fade"
+        data-bs-interval="10000"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-current="true"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-current="true"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner" >
+          <div class="carousel-item active" data-interval="1000">
+            <img 
+              src="./UP CAMPUS.png"
+              class="d-block w-100"
+              alt="Carousel 1"
+              height="500px"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="2000">
+            <img 
+              src="./UP1.png"
+              class="d-block w-100"
+              alt="Carousel 2"
+              height="500px"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="3000">
+            <img 
+              src="./UP2.png"
+              class="d-block w-100"
+              alt="Carousel 3"
+              height="500px"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 col-sm-12 col-md-12 d-flex align-items-center">
+        <div class="card border-0">
+            <div class=" card-body">
+                <div class="col-sm-12">
+                    <h3 class="card-title" style="text-align: center;"><b>UNIVERSITY OF THE PHILIPPINES</b></h3>
+                    <p class="card-text" style="text-align: justify; padding-top:20px;">
+                      The main campus of the University of the Philippines System (UP System), the national university by virtue of Republic Act 9500. 
+                      A modern research university advancing sustainable, innovative, and people-centered national development. This public mission is 
+                      carried out by a socially engaged community that upholds honor, excellence and integrity in all areas of research and education.
+                      <br><br>
+                      UPD’s academic buildings and public art are set in a landscaped environment which is a result of the evolution of its campus 
+                      plan in the face of changing architectural theories and styles, as well as its dynamic relationship with the concerns and events 
+                      of the nation.
+                      <br><br>
+                      Thus, UPD fulfills its role as a model of undergraduate instruction, a center for graduate education and research, 
+                      and as a major source of leadership and expertise for public service.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<hr>
+<div class="row">     
+  <div class="col-lg-12" style="padding-bottom: 40px;">
+    <h4>ACHIEVEMENTS</h4> 
+    <div class="row" style="padding-left: 20px; padding-top: 20px; text-align: justify;">
+      <div class="col-lg-6">
+        <li>
+          The Galileo Galilei Award - is given for outstanding contributions to the field of optics achieved under 
+          “comparatively unfavorable circumstances,” referring to “difficult economic or social conditions or lack 
+          of access to scientific or technical facilities or sources of information.”
+        </li><br>
+        <li>
+          Global 500 Roll of Honor - recognizes individuals and organizations for outstanding achievements in 
+          protection and improvement of the environment.
+        </li><br>
+        <li>
+          Southeast Asian Writers Award - honors leading poets and writers in 10 countries of the Association of 
+          Southeast Asian Nations (ASEAN). The award is sometimes given for a specific work by an author, or it 
+          could be awarded for lifetime achievement.
+        </li>
+      </div>
+      <div class="col-lg-6">
+        <li>
+          Ten Outstanding Young Persons of the World (TOYP) - is given yearly by the Junior Chamber International (JCI) 
+          to honor 10 outstanding people under the age of 40 who excel in their fields of expertise and provide extraordinary 
+          service to their communities whether through service, innovation, determination or revolutionary thinking, thus 
+          creating a positive impact on a local or global level.
+        </li><br>
+        <li>
+          Cochran-Hansen Prize - is given every two years by the International Association of Survey Statisticians (IASS) to 
+          the best paper/s on survey methods conducted by young statisticians from a developing country or transition country.
+        </li>
+      </div>
+    </div>
+  </div>  
+
+
+  <div class="col-lg-6">
+    <button class="accordion">ADMISSION</button>
+      <div class="panel" style="text-align: justify;  padding-top: 20px;"> 
+        <ul>
+          <li>
+            The University of the Philippines aspires to democratize admission into the university through the Quality-Equity Admissions System, 
+            as part of its commitment to academic excellence and in light of its duty as the nation's university (EEAS). While maintaining strong 
+            academic requirements, the EEAS aims for a better geographic dispersion as well as socio-economic parity among students admitted to UP. 
+            (17 April 1997), 1107th BOR Meeting
+          </li><br>
+          <li>
+            UP Diliman implemented the improved EEAS in 2006, based on the UP Admission Index (UPAI). [The 1204th BOR Meeting was held on January 26, 2006, 
+            while the 95th UPD UC was held on April 19, 2006.]
+          </li>
+        </ul>
+        Admission into a bachelor’s degree program is covered by the following guidelines:
+        <ol>
+          <br><li>
+            <b>Graduates of Department of Education -</b> accredited high schools may be admitted as freshmen into the University based on their performance 
+            in the UP College Admission Test (UPCAT) and their weighted average in the first three (3) years of high school (798th BOR Meeting: 27 August 1970);
+          </li><br>
+          <li>
+            Applicants who are holders of the Philippine Educational Placement Test (PEPT) Certificate, in lieu of a high school diploma, may be admitted to the 
+            University provided they qualify in the UPCAT (1034th BOR Meeting: 30 August 1990);
+          </li><br>
+          <li>
+            Applicants who graduated from high schools abroad and who have not enrolled in college may be admitted as beginning freshmen into a degree program with 
+            available slots without taking the UPCAT provided that they meet the following requirements (594th EC Meeting: 27 April 1966 p.122):
+            <ol type="a">
+              <br><li>
+                completion of the high school program in the country where they had their education (933rd BOR Meeting: 30 October 1980). [This includes the completion 
+                of one- or two -year university education in a country where such is a prerequisite for admission to a Bachelor’s International Baccalaureate Diploma 
+                (IBE) and degree program];
+              </li><br>
+              <li>
+                <b>passing a college -</b> qualifying national or international foreignadministered examination such as the General Certificate of Education (GCE) 
+                Examination or the Scholastic Aptitude Test (SAT) or equivalent examination (965th BOR Meeting: 23 February 1984) with the following minimum scores:
+                <ul>
+                 <br><li>
+                    <b>GCE:</b>three (3) ordinary level passes and two (2) advance level passes
+                  </li>
+                  <li>
+                    <b>SAT:</b>minimum total score of 1200 (for Math and Critical Reading only)
+                  </li>
+                  <li>
+                    <b>IBE:</b>International Baccalaureate Diploma
+                  </li>
+                </ul>
+              </li><br>
+              <li>
+                in the case of an applicant whose native language or whose medium of instruction in the secondary school is not English, a score of at least 500 in the 
+                paper-based Test of English as a Foreign Language (TOEFL) , or at least 173 in the computerized form, or at least sixty-one (61) in Internet- Based Test 
+                [IBT] [1126th BOR Meeting: 26 November 1998, amended at 1296th BOR Approval: 27 February 2014];
+              </li><br>
+              <li>
+                official result forms should be submitted upon entry or upon filing of application.
+              </li>
+            </ol>
+          </li><br>
+          <li>
+            A graduate from a high school abroad who fails to satisfy the requirements for automatic admission (i.e., item b above) may take the UPCAT;
+          </li><br>
+          <li>
+            A Filipino who graduates from a secondary school abroad and applies for freshman admission to the University must satisfy the same 
+            requirements as those for foreign students. (239th UC Meeting; 15 April 1969 p.2).
+          </li><br>
+        </ol>
+      </div>
+  </div>
+
+  <div class="col-lg-6">
+    <button class="accordion">COURSES ON DEMAND OFFERED</button>
+    <div class="panel" style="text-align: justify;  padding-top: 10px;">
+      <div class="row">
+        <span style="padding-top: 20px"><b>Best Course:</b><br><mark style="background-color: #FFFF00;">Business Administration and Related Courses, 
+          <br> Aviation <br> Aircraft/Aeronautics Operations or Engineering <br> Commerce or Economics <br> Civil Engineering <br> Computer Science/Programming <br> 
+          Medical and healthcare</mark></span>
+        <div class="col-lg-10 col-sm-6">
+          <div class="boxdiv">
+            Business Administration and Related Courses
+          </div>
+          <div class="boxdiv">
+            Medical and Allied
+          </div>
+          <div class="boxdiv">
+            Education and Teacher Training
+          </div>
+          <div class="boxdiv">
+            Information Technology Related Discipline
+          </div>
+          <div class="boxdiv">
+            Engineering and Technology
+          </div>
+          <div class="boxdiv">
+            Religion and Theology
+          </div>
+          <div class="boxdiv">
+            Maritime Education
+          </div>
+          <div class="boxdiv">
+            Trade, Craft, and Industrial
+          </div>
+          <div class="boxdiv">
+            Agricultural, Forestry, and Fisheries and Veterinary Medicine
+          </div>
+          <div class="boxdiv">
+            Social and Behavioral Science 
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-6 text-center">
+          <div class="boxdiv"> ✓ </div>
+          <div class="boxdiv"> ✓ </div>
+          <div class="boxdiv"> ✓ </div>
+          <div class="boxdiv"> ☓ </div>
+          <div class="boxdiv"> ✓ </div>
+          <div class="boxdiv"> ☓ </div>
+          <div class="boxdiv"> ☓ </div>
+          <div class="boxdiv"> ✓ </div>
+          <div class="boxdiv" style="padding-top: 20px;"><p>✓</p></div>
+          <div class="boxdiv"> ☓ </div>
+        </div>
+        <span style="padding-bottom: 30px;"><b>Tuition:</b> (RANGE)
+          Tuition fee ranges from P4,661.50 to P31,490.50 <br>for a maximum of 12 units.</span>
+      </div>
+    </div>
+</div>
+
+<div class="col-lg-6">
+  <button class="accordion">SERVICES</button>
+    <div class="panel" style="text-align: justify;  padding-top: 20px;"> 
+      <ul>
+        <li>
+          ...
+        </li><br>
+        <li>
+          ...  
+        </li>
+      </ul>
+    </div>
+</div>
+
+<div class="col-lg-6">
+  <button class="accordion">CONTACT DETAILS</button>
+  <div class="panel" style="text-align: justify; padding-top: 10px;">
+    <h6><i class="fa fa-map-marker" style="font-size:20px; color:rgb(25, 75, 211)"></i>  
+      Quezon City, Philippines 1101
+    </h6><br>
+    <h6><i class="fa fa-envelope" style="font-size:20px; color:rgb(25, 75, 211)"></i>   updio@up.edu.ph </h6><br>
+    <h6><i class="fa fa-envelope" style="font-size:20px; color:rgb(25, 75, 211)"></i>  http://directory.upd.edu.ph/ </h6><br>
+    <h6><i class="fa fa-phone" style="font-size:20px; color:rgb(25, 75, 211)"></i>  +(632) 8981-8500</h6><br>
+  </div>
+</div>
+<hr>
+
+<div class="row justify-content-center" style="padding-top: 50px; " >
+<h1 class="text-center font-weight-bold" style="padding-bottom:25px; color:black;">ALUMNI</h1>            
+    <div class="col-lg-4 col-md-6">
+      <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+            <img src="./UP-ALUMNI/Gloria.png" class="card-img-top img-fluid" style="width: 50%; margin-top: 10px; margin-bottom: 30px; margin-left:100px;">
+            <div class="card-body">
+              <h5 class="card-title">Gloria Macapagal-Arroyo</h5>
+              <p class="card-text" style="padding-bottom: 48px;">&emsp;&ensp; Was born on April 5, 1947 (age 75 years). She became the president of the Philippines 
+                on January 20, 2001 – June 30, 2010. She pursued a Ph. D. in economics from the University of the Philippines Diliman 
+                (1985).</p>
+            </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+            <img src="./UP-ALUMNI/Ferdinand.png" class="card-img-top img-fluid" style="width: 60%; margin-top: 10px; margin-bottom: 30px; margin-left:80px;">
+            <div class="card-body">
+              <h5 class="card-title">Ferdinand Emmanuel Edralin <br> Marcos Sr.</h5>
+              <p class="card-text" style="padding-bottom: 8px;">&emsp;&ensp; Was a Filipino politician, lawyer, and dictator who 
+                was the 10th president of the Philippines from December 30, 1965 to February 25, 1986. He pursued a Bachelors of 
+                Law from the University of the Philippine College of Law.</p>
+            </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+            <img src="./UP-ALUMNI/Leni.png" class="card-img-top img-fluid" style="width: 55%; margin-top: 10px; margin-bottom: 30px; margin-left:85px;">
+            <div class="card-body">
+              <h5 class="card-title">Maria Leonor "Leni" Gerona Robredo</h5>
+              <p class="card-text">&emsp;&ensp; is a Filipina lawyer, politician, and social activist 
+                who is the 14th and incumbent vice president of the Philippines, and is now running for presidency in 2022. Robredo 
+                herself is an Economics degree holder from the University of the Philippines in Diliman.</p>
+            </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+            <img src="./UP-ALUMNI/Vilma.png" class="card-img-top img-fluid" style="width: 60%; margin-top: 10px; margin-bottom: 30px; margin-left:80px;">
+            <div class="card-body">
+              <h5 class="card-title">Rosa Vilma Tuazon Santos-Recto</h5>
+              <p class="card-text">&emsp;&ensp; A Filipina actress, singer, dancer, TV host, producer, 
+                and politician. She is currently serving as a House Deputy Speaker since 2019, and as the Representative of Batangas' 
+                6th district since 2016. She pursued a  Degree of Doctor of Humanities Honoris Causa.</p>
+            </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+            <img src="./UP-ALUMNI/Benigno.png" class="card-img-top img-fluid" style="width: 50%; margin-top: 10px; margin-bottom: 30px; margin-left:100px;">
+            <div class="card-body">
+              <h5 class="card-title">Benigno Simeon "Ninoy" Aquino Jr</h5>
+              <p class="card-text" style="padding-bottom: 75px;">&emsp;&ensp;  Was a Filipino politician who served as a senator of the Philippines and governor of the 
+                province of Tarlac. Aquino took up law at the University of the Philippines Diliman.</p>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ADU -->
+<section id="ADU">
+  <div class="container">
+  <div class="row" style="margin-top: 150px;">
+    <div class="heh container shadow-lg col-lg-6 col-sm-12 col-md-12  ">
+      <div 
+        id="carouselExampleCaptions" 
+        class="carousel slide carousel-fade"
+        data-bs-interval="10000"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-current="true"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-current="true"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner" >
+          <div class="carousel-item active" data-interval="1000">
+            <img 
+              src="./ADU CAMPUS.png"
+              class="d-block w-100"
+              alt="Carousel 1"
+              height="500px"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="2000">
+            <img 
+              src="./ADU1.png"
+              class="d-block w-100"
+              alt="Carousel 2"
+              height="500px"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="3000">
+            <img 
+              src="./ADU2.png"
+              class="d-block w-100"
+              alt="Carousel 3"
+              height="500px"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 col-sm-12 col-md-12 d-flex align-items-center">
+        <div class="card border-0">
+            <div class=" card-body">
+                <div class="col-sm-12">
+                    <h3 class="card-title" style="text-align: center;"><b>ADAMSON UNIVERSITY</b></h3>
+                    <p class="card-text" style="text-align: justify; padding-top:20px;">
+                      A Catholic University based in the heart of Manila. Dr. George Lucas Adamson, a Greek chemist, 
+                      founded it in 1932 as the Adamson School of Industrial Chemistry. It became a university in 1941 and in 1964, 
+                      the Congregation of the Mission, or the Vincentians, became the new owners and administrators.
+                      <br><br>
+                      Adamson has gone global through the admission of international students, partnerships with foreign institutions 
+                      and organizations, ASEAN integration, and the establishment of alumni chapters throughout the world.
+                      <br><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<hr>
+<div class="row">     
+  <div class="col-lg-12" style="padding-bottom: 40px;">
+    <h4>ACHIEVEMENTS</h4> 
+    <div class="row" style="padding-left: 20px; padding-top: 20px; text-align: justify;">
+      <div class="col-lg-6">
+        <li>
+          Pamana ng Pilipino Award given to Filipinos overseas who exemplify the talent and industry of the Filipino and 
+          have brought the country honor and recognition through excellence and distinction in the pursuit of their work 
+          or profession.
+        </li><br>
+        <li>
+          A member of University Athletic Association of the Philippines
+        </li>
+      </div>
+      <div class="col-lg-6">
+        <li>
+          Awarded as UAAP Season 80 Cheerdance Champion
+        </li><br>
+        <li>
+          Adamson University was included in the top 201+ universities in Asia in the Quacquarelli Symonds (QS) 
+          Asia University 2011 Rankings.
+        </li>
+      </div>
+    </div>
+  </div>  
+
+
+  <div class="col-lg-6">
+    <button class="accordion">ADMISSION</button>
+      <div class="panel" style="text-align: justify;  padding-top: 20px;"> 
+        <b>ADMISSION OVERVIEW</b><br><br>
+        <span>&emsp;&emsp; 
+          Rich or poor, Catholic or not, Filipino or foreigner, the University does not discriminate as a matter of 
+          admission policy. It however pursues the teaching of Catholic, Vincentian, and human values because these 
+          have universal relevance. Freshmen and transferees are oriented on the School's Vision-Mission, which becomes 
+          clearer as they internalize the five core values of Search for Excellence, Spirit of St. Vincent de Paul, Solidarity, 
+          Social Responsibility, and Sustained Integral Development.
+        </span><br><br>
+        <b>Enrollment Procedure and Requirements</b><br><br>
+          <ol>
+            <li>Back to back copy of Grade 12 Report Card. (or at least 3rd Quarter Grade)*</li><br>
+            <li>Clear copy of the applicant’s unedited 2x2 picture (white background, collared shirt) for the temporary ID.*</li>
+          </ol>
+         <b>NOTE: * Your application will be pending if any of the essential requirements is missing.</b> <br><br>
+         <b>Procedure</b>
+         <ol>
+           <li>Visit www.adamson.edu.ph/cfe</li><br>
+           <li>Select admission type, preferred program and NSTP component</li><br>
+           <li>Fill out Student Information Sheet (SIS) Form.</li><br>
+           <li>
+             Upload necessary documents for evaluation and approval:
+             <ul>
+               <li>Back to back copy of Grade 12 Report Card. (or at least 3rd Quarter Grade)*</li>
+               <li>Clear copy of the applicant’s unedited 2x2 picture (white background, collared shirt) for the temporary ID.*</li>
+             </ul>
+           </li><br>
+           <li>
+             Applicant receives a notification indicating student number once the application is approved. 
+             The applicant can now pay the down payment.
+            </li><br>
+           <li>
+             Settle the non-refundable down payment and upload proof of payment at <br><a href="www.adamson.edu.ph/cfe">www.adamson.edu.ph/cfe</a>
+             <ul>
+               <li>For payment guidelines visit:<br><a href="www.adamson.edu.ph/v1/?page=accepted-modes-authorized-tuitionfee">www.adamson.edu.ph/v1/?page=accepted-modes-authorized-tuitionfee</a></li>
+               <li>For BUKAS Student Loan Program, visit:<br><a href="www.bukas.ph/s/adu-to-bukas">www.bukas.ph/s/adu-to-bukas</a></li>
+             </ul>
+            </li><br>
+           <li>Upon validation by the Cashier’s Office, the Admissions Office will assign the block section and his/her chosen NSTP program.</li><br>
+           <li>Applicant receives notification indicating LMS account and can view his/her enrollment.</li>
+         </ol>
+
+      </div>
+  </div>
+
+  <div class="col-lg-6">
+    <button class="accordion">COURSES ON DEMAND OFFERED</button>
+    <div class="panel" style="text-align: justify;  padding-top: 10px;">
+      <div class="row">
+        <span style="padding-top: 20px"><b>Best Course: </b><mark style="background-color: #FFFF00;"> Engineering</mark></span>
+        <div class="col-lg-10 col-sm-6">
+          <div class="boxdiv">
+            Business Administration and Related Courses
+          </div>
+          <div class="boxdiv">
+            Medical and Allied
+          </div>
+          <div class="boxdiv">
+            Education and Teacher Training
+          </div>
+          <div class="boxdiv">
+            Information Technology Related Discipline
+          </div>
+          <div class="boxdiv">
+            Engineering and Technology
+          </div>
+          <div class="boxdiv">
+            Religion and Theology
+          </div>
+          <div class="boxdiv">
+            Maritime Education
+          </div>
+          <div class="boxdiv">
+            Trade, Craft, and Industrial
+          </div>
+          <div class="boxdiv">
+            Agricultural, Forestry, and Fisheries and Veterinary Medicine
+          </div>
+          <div class="boxdiv">
+          Social and Behavioral Science 
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-6 text-center">
+          <div class="boxdiv"> ✓ </div>
+          <div class="boxdiv"> ✓ </div>
+          <div class="boxdiv"> ✓ </div>
+          <div class="boxdiv"> ✓ </div>
+          <div class="boxdiv"> ✓ </div>
+          <div class="boxdiv"> ☓ </div>
+          <div class="boxdiv"> ☓ </div>
+          <div class="boxdiv"> ✓ </div>
+          <div class="boxdiv" style="padding-top: 20px;"><p>✓</p></div>
+          <div class="boxdiv"> ✓ </div>
+        </div>
+        <span style="padding-bottom: 30px;"><b>Tuition:</b> (RANGE) 10K-60K (PER SEMESTER) 100K-150K (PER YEAR)</span>
+      </div>
+    </div>
+</div>
+
+<div class="col-lg-6">
+  <button class="accordion">SERVICES</button>
+    <div class="panel" style="text-align: justify;  padding-top: 20px;"> 
+      <ul>
+        <li>
+          In general, the Information Technology Center (ITC) is responsible for the supervision of computing facilities, 
+           development and monitoring of administrative computerized systems, generation of information systems reports, 
+           and the provision of the maintenance services. The IT Center as a whole is a partner in the progress of the University. 
+           Its highly effective technological support to administrators in their diversified functions makes the University globally competitive.
+        </li>
+      </ul>
+    </div>
+</div>
+
+<div class="col-lg-6">
+  <button class="accordion">CONTACT DETAILS</button>
+  <div class="panel" style="text-align: justify; padding-top: 10px;">
+    <h6><i class="fa fa-map-marker" style="font-size:20px; color:rgb(25, 75, 211)"></i>   900 San Marcelino Ermita, Manila
+      </h6><br>
+    <h6><i class="fa fa-envelope" style="font-size:20px; color:rgb(25, 75, 211)"></i>   webmaster@adamson.edu.ph </h6><br>
+    <h6><i class="fa fa-phone" style="font-size:20px; color:rgb(25, 75, 211)"></i>  +02 524 20 11</h6><br>
+  </div>
+</div>
+<hr>
+
+<div class="row justify-content-center" style="padding-top: 50px; " >
+<h1 class="text-center font-weight-bold" style="padding-bottom:25px; color:black;">ALUMNI</h1>            
+    <div class="col-lg-4 col-md-6">
+      <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+            <img src="./ADU-ALUMNI/Jose.png" class="card-img-top img-fluid" style="width: 60%; margin-top: 10px; margin-bottom: 30px; margin-left:80px;">
+            <div class="card-body">
+              <h5 class="card-title">Jose Biohon Catindig Jr.</h5>
+              <p class="card-text">&emsp;&ensp;Also known as Joey, is the former mayor of Santa Rosa City from 2005 to 2007. He was the vice mayor of Santa Rosa, 
+                Laguna from 2001 to 2004, and 2004 to 2005 under Leon Arcillas and 1995 to 1998 under Roberto "Tito" Gonzales. He finished tertiary studies at 
+                Adamson University, where he earned a Bachelors of Art degree in political science.</p>
+            </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+            <img src="./ADU-ALUMNI/Roberto.png" class="card-img-top img-fluid" style="width: 50%; margin-top: 10px; margin-bottom: 30px; margin-left:80px;">
+            <div class="card-body">
+              <h5 class="card-title">Roberto Yu Uy</h5>
+              <p class="card-text" style="padding-bottom: 35px;">&emsp;&ensp; Also known as Berto Uy is a Chinese Filipino businessman and politician from 
+                the province of Zamboanga del Norte in the Philippines. He currently serves as a Governor of Zamboanga del Norte. He took up a Bachelor of 
+                Science in Mechanical Engineering at Adamson University.</p>
+            </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+            <img src="./ADU-ALUMNI/Carlos.png" class="card-img-top img-fluid" style="width: 70%; margin-top: 10px; margin-bottom: 30px; margin-left:60px;">
+            <div class="card-body">
+              <h5 class="card-title">Carlos Edriel Yulo</h5>
+              <p class="card-text" style="padding-bottom: 120px;">&emsp;&ensp; A Filipino artistic gymnast who has won multiple medals at the World Artistic Gymnastics Championships. 
+                He attended Adamson University in Ermita for his secondary education.</p>
+            </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+            <img src="./ADU-ALUMNI/Anthony.png" class="card-img-top img-fluid" style="width: 40%; margin-top: 10px; margin-bottom: 30px; margin-left:120px;">
+            <div class="card-body">
+              <h5 class="card-title">Anthony Jesus Alarcon</h5>
+              <p class="card-text" >&emsp;&ensp;Known professionally as Jestoni Alarcon, is a Filipino actor and 
+                politician. He served as a councilor in Antipolo from 2001 to 2004 and as the vice governor of Rizal Province from 2004 to 2007. 
+                In 2013, he won as a board member of the 1st District of Rizal. He graduated cum laude from the University of the Philippines-Diliman.</p>
+            </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <div class="card border-2 border-dark shadow-lg" style="margin-bottom:60px">
+            <img src="./ADU-ALUMNI/Ruthlane.png" class="card-img-top img-fluid" style="width: 60%; margin-top: 10px; margin-bottom: 30px; margin-left:80px;">
+            <div class="card-body">
+              <h5 class="card-title">Ruthlane Uy Asmundson</h5>
+              <p class="card-text"style="padding-bottom: 65px;">&emsp;&ensp;   Served as mayor of the City of Davis, California from 2004 to 2006 and again from 2008 to 2010. 
+                A native of Gamu, Isabela, Philippines, Asmundson was the first female Filipino migrant to be elected into the position of mayor 
+                in an American city. In 1968, Asmundson graduated with a BS in chemistry from Adamson University.</p>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<footer class="text-center text-white">
+ Copyright &copy 2022. All Rights Reserved.
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          } 
+        });
+      }
+      </script>
   </body>
 </html>

@@ -7,3 +7,15 @@ H1{
     text-align: center;
     font-family: 'Chivo', sans-serif;
 }
+.container{
+    padding: 20px;
+}
+.card-text
+{
+    font-family: 'Chivo', sans-serif;
+    font-size: large;
+}
+
+.About{
+    padding-top: 100px;
+}

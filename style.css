@@ -3,29 +3,47 @@ body {background-color: #D1D1D1;
 
 .container{
     padding: 20px;
+    font-family: 'Chivo', sans-serif;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
-
-
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
 .card .btn{
     font-family: 'Chivo', sans-serif;
     color:black;
     margin-top: auto;
-    align-self: flex-start;
 }
-
+.card-text{
+    padding: 25px;
+    text-align: justify;
+}
 
 .heh{
     max-width: 100%;
 }
-h1
-{
+h1{
     text-align: center;
     font-family: 'Chivo', sans-serif;
 }
+
+h4{
+    width: 100%;
+    text-align: center;
+    border:black; 
+    border-width:2px; 
+    border-style:solid;
+    padding: 4px;
+    font-size: 21px;
+    font-weight: bold;
+    background-color: rgb(236, 235, 235);
+}
+
+
 h5{
     font-family: 'Chivo', sans-serif;
     font-weight: bold;
@@ -34,5 +52,32 @@ h5{
 p
 {
     font-family: 'Chivo', sans-serif;
-    
+}
+
+.boxdiv{
+    min-height: 50px;
+    font-weight: bold;
+    padding: 10px;
+    border:black; 
+    border-width:2px; 
+    border-style:solid;
+    background-color: white;
+    color: black;
+    margin: 5px;
+}
+
+.list-group li{
+    text-align: center;
+    border: solid;
+    background-color: #D1D1D1;
+}
+
+.modal-content{
+    background-color: #D1D1D1;
+}
+
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000;
 }
