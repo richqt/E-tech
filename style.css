@@ -1,6 +1,8 @@
 body {background-color: #D1D1D1;
 }
-
+.dropdown-menu{
+    background-color: #D1D1D1;
+}
 .container{
     padding: 20px;
     display: flex;
@@ -8,13 +10,14 @@ body {background-color: #D1D1D1;
     flex-direction: column;
 }
 
-
-
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
 .card .btn{
     font-family: 'Chivo', sans-serif;
     color:black;
     margin-top: auto;
-    align-self: flex-start;
 }
 
 
@@ -34,5 +37,4 @@ h5{
 p
 {
     font-family: 'Chivo', sans-serif;
-    
 }
