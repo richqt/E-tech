@@ -11,6 +11,12 @@ body {background-color: #D1D1D1;
     flex-direction: column;
 }
 
+
+  a:hover {
+    opacity: 0.6;
+    transition: 0.5s ease;
+
+  }
 .card-body{
     display: flex;
     flex-direction: column;
