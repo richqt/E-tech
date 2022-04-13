@@ -9,7 +9,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="accordion.css">
     <link rel="stylesheet" href="AboutUsStyle.css">
+    <link rel="stylesheet" href="reference.css">
+
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +25,7 @@
     </style>
   </head>
   <!-- Nav Bar -->
-  <body style="height: 1500px;">
+
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark" style="position:fixed; width:100%">
       <div class="container-fluid">
         <img src="New Logo.png" alt="Logo" width="100" height="80" class="d-inline-block align-text-top">
@@ -60,61 +63,191 @@
         </div>
       </div>
     </nav>
-    <div class="About">
+  <div class="About">
       <H1>References</H1>
-     
+      <div class="container">
+        <div class="row" >
          
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-              Accordion Item #2
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-            <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <div class="accordion1" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Ateneo De Manila Univerisity
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>These are the all the links used in finding information about ADMU</strong> 
+                  <ul>
+                    <li><a href="https://www.candymag.com/lifestyle/ateneo-de-manila-university-a1753-20220108-lfrm#:~:text=The%20tuition%20at%20Ateneo%20 ranges%20at%20P90%2C000%20to,fees%20at%20P12%2C385%20and%20miscellaneous%20fees%20at%20P3%2C750"target="_blank"> www.candymag.com </a>
+                    </li>
+                    <li><a href="https://www.ateneo.edu"target="_blank"> www.ateneo.edu </a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Ateneo_de_Manila_University"target="_blank">www.wikepedia.org</a></li>
+                    <li><a href="https://www.gmanetwork.com/news/lifestyle/hobbiesandactivities/795299/philippines-enters-world-universities-debating-championship-grand-finals-for-the-first-tim/story/"target="_blank">www.gmanetwork.com</a></li>
+                    <li><a href="https://mb.com.ph/2022/02/23/ateneo-posts-100-passing-rate-in-licensure-exam-for-psychologists/"target="_blank">www.manila-bulletin.com.ph</a></li>
+                    <li><a href="https://www.rappler.com/nation/ateneo-tops-philippine-universities-the-impact-rankings-2021/"target="_blank">www.rappler.com</a></li>
+                
+                  </ul>
+    
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-            <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Univerisity of the East
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>These are all the links used in finding information about UE</strong> 
+                  <ul>
+                    <li><a href="https://www.manilastandard.net/showbitz/celebrity-profiles/276063/xian-lim-on-his-basketball-journey.html"target="_blank"> www.manilastandard.net </a>
+                    </li>
+                    <li><a href="https://www.ue.edu.ph/mla/maligayang-ika-75-na-anibersaryo-ue-ue-graduate-at-dating-bise-presidente-noli-de-castro/"target="_blank"> www.ue.edu.ph </a></li>
+                    <li><a href="https://profiles.ph/james-yap"target="_blank">www.profiles.ph</a></li>
+                    <li><a href="https://www.britannica.com/biography/Alfredo-Lim"target="_blank">www.britannica.com</a></li>
+                    <li><a href="https://www.ue.edu.ph/mla/"target="_blank">www.ue.edu.ph/mla</a></li>
+                  </ul>
+                </div>
+              </div>                
             </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  University of Santo Tomas
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>These are all the links used in finding information about UST</strong> 
+                  <ul>
+                    <li><a href="https://ofad.ust.edu.ph/degrees/"target="_blank"> www.ofad.ust.edu.ph </a></li>
+                    <li><a href="https://www.ust.edu.ph/tuition-fees/"target="_blank"> www.ust.edu.ph </a></li>
+                    <li><a href="https://www.pep.ph/lifestyle/lifestyle/151908/celebrities-ust-a721-20200612-lfrm"target="_blank">www.pep.ph</a></li>
+                    <li><a href="https://pressone.ph/ust-students-get-free-pocket-wi-fi-for-online-classes/"target="_blank">www.pressone.ph</a></li>
+                    <li><a href="https://www.yellow-pages.ph/business/university-of-santo-tomas-hospital"target="_blank">www.yellow-pages.ph</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  National University
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>These are all the links used in finding information about NU</strong> 
+                  <ul>
+                    <li><a href="https://www.nu.edu/admissions/undergraduate/undergraduatetuition/"target="_blank"> www.NU.edu </a>
+                    </li>
+                    <li><a href="https://en.wikipedia.org/wiki/National_University_(Philippines) "target="_blank"> www.wikepedia.org </a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Ateneo_de_Manila_University"target="_blank">www.wikepedia.org</a></li>
+                    <li><a href="https://national-u.edu.ph/nu-manila/facilities/"target="_blank">www.national-u.edu.ph</a></li>
+                    <li><a href="https://www.finduniversity.ph/universities/national-university/images/"target="_blank">www.finduniversity.ph</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  De La Salle University
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>These are all the links used in finding information about DLSU</strong> 
+                  <ul>
+                    <li><a href="https://www.dlsu.edu.ph"target="_blank"> www.dlsu.edu.ph</a></li>
+                    <li><a href="https://www.courses.com.ph/de-la-salle-university/ "target="_blank"> www.courses.com </a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/List_of_De_La_Salle_University_people\"target="_blank">www.wikepedia.org</a></li>
+                    <li><a href="https://www.timeshighereducation.com/world-university-rankings/de-la-salle-university"target="_blank">www.timeshighereducation.com</a></li>
+                  
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  Far Eastern University
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>These are all the links used in finding information about FEU</strong> 
+                  <ul>
+                    <li><a href="https://www.feu.edu.ph"target="_blank"> www.feu.edu.ph</a>
+                    </li>
+                    <li><a href="https://edurank.org/uni/far-eastern-university/alumni/ "target="_blank"> www.edurank.org </a></li>
+                    <li><a href="https://www.4icu.org/reviews/3678.htm"target="_blank">www.4icu.org</a></li>
+                    <li><a href="https://www.pressreader.com/philippines/daily-tribune-philippines/20200308/282235192714584"target="_blank">www.pressreader.com</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  Univerisity of the Philippines
+                </button>
+              </h2>
+              <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>These are all the links used in finding information about UP</strong> 
+                  <ul>
+                    <li><a href="https://upd.edu.ph/international-awards/"target="_blank"> www.upd.edu.ph/awards. </a>
+                    </li>
+                    <li><a href="https://upd.edu.ph/academics/undergraduate/ "target="_blank"> www.upd.edu.ph/academics </a></li>
+                    <li><a href="https://artsandculture.google.com/entity/m01pmqw?hl=eu"target="_blank"> www.artsandculture.com </a></li>
+                    <li><a href="https://upd.edu.ph"target="_blank"> www.upd.edu.ph/</a></li>
+                  
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                  Adamson University
+                </button>
+              </h2>
+              <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>These are all the links used in finding information about ADU</strong> 
+                  <ul>
+                    <li><a href="https://www.adamson.edu.ph/2018/"target="_blank"> www.adu.edu.ph</a>
+                    </li>
+                    <li><a href="https://www.edujournal.com/course/adamson-university/"target="_blank"> www.edujournal.com</a>
+                    </li>
+                    <li><a href="https://osau.com/schools/7569/adamson-university"target="_blank"> www.osau.com</a>
+                    </li>
+                    <li><a href="https://www.devex.com/organizations/adamson-university-138536"target="_blank"> www.devex.com</a>
+                    </li>
+                  
+                  </ul>
+                </div>
+              </div>
+            </div>
+
           </div>
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       <footer class="text-center text-white">
         Copyright &copy 2022. All Rights Reserved.
        </footer>
   
     
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-  
+   
     
     </body>
   </html>
